@@ -1,0 +1,45 @@
+{
+    "name": "salesforce-slack-app",
+    "version": "1.0.0",
+    "description": "This is a sample scaffold to help you get started with Slack app integrated to Salesforce",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest --no-cache",
+        "lint": "eslint . --ext .js",
+        "prettier": "prettier --write \"**/*.{html,js,json,md,xml,yaml,yml}\""
+    },
+    "jest": {
+        "collectCoverage": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developerforce/salesforce-slack-starter-kit.git"
+    },
+    "keywords": [
+        "slack salesforce",
+        "salesforce slack"
+    ],
+    "author": "Salesforce Dev Rel",
+    "license": "CC0 1.0 Universal",
+    "bugs": {
+        "url": "https://github.com/developerforce/salesforce-slack-starter-kit"
+    },
+    "homepage": "https://github.com/developerforce/salesforce-slack-starter-kit",
+    "dependencies": {
+        "@slack/bolt": "^3.11.1",
+        "crypto-js": "^4.1.1",
+        "dotenv": "^16.0.1",
+        "express": "^4.17.3",
+        "express-session": "^1.17.2",
+        "jsforce": "^1.11.0",
+        "node-cache": "^5.1.2",
+        "sf-jwt-token": "^1.3.0",
+        "slack-block-builder": "^2.5.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "eslint-plugin-jest": "^26.4.6",
+        "jest": "^27.4.5",
+        "prettier": "^2.6.2"
+    }
+}
